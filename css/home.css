@@ -1,0 +1,89 @@
+.home{
+    background-image: url(../assets/bekgron.png);
+    position: relative;
+    min-height: 100vh;
+}
+
+.container-fluid{
+    background-color: aliceblue;
+}
+img{
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+.fs-4{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:midnightblue;
+    font-weight: bold;
+}
+.nav-pills .nav-link{
+    color: #377ee7;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 14px;
+    transition: 0.3s;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: rgba(92, 161, 218, 0.1);
+    color:rgb(141, 182, 232);
+}
+.nav-pills .nav-link.active{
+    background-color:rgb(141, 182, 232);
+    color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 30px;
+    margin-top: auto;
+
+}
+h1{
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: black;
+    font-weight: bold;
+}
+p{
+    text-shadow: black;
+    padding: 0 0;
+    letter-spacing: 1px;
+}
+.hero-text{
+    width: 40%;
+    color: white;
+    text-shadow: black;
+    font-family:inherit;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 1px midnightblue;
+}
+.btn-warning{
+    color :aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.ikon1{
+    height: 30px;
+    background: none;
+    mix-blend-mode: multiply;
+    /* hapus bg putih */
+    justify-content: space-between;
+}
+.item{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    color:rgb(255, 255, 255);
+    font-family:Verdana;
+    font-size: 20px; 
+}
+.price{
+    color:hotpink;
+    font-weight:bold;
+}
