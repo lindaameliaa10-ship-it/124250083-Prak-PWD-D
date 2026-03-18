@@ -2,11 +2,5 @@ Nama : Linda Amelia Azzahro
 NIM : 124250083
 
 Studi Kasus: Platform Sewa Barang
-Saya menemukan ide untuk membuat rancangan website sewa barang karena membaca pdf tugas 2 yang disitu ada
-contoh layanan platform sewa barang.
-Disisi lain, saya menyukai hiking CUMAN TERHALANG IZIN ORANG TUA. Jadi setelah baca contoh layanan di pdf
-saya langsung kepikiran membuat website rental outdoor. Lalu saya membuat judulnya Odet Mountain Adventure
-itu karna ingat nama streak pet saya odet jadi sepertinya lucu juga namanya.
-Webiste Odet Adventur ini terdiri dari 3 halaman utama yaitu home.php, form.php, dan landing.php dimana
-didalam halaman tersebut memanggil variabel yang saya buat di dataRental.php. Terdapat file css juga untuk
-home, form, dan landing serta file assets untuk gambar yang saya gunakan.
+Saya menemukan ide untuk membuat rancangan website sewa barang karena membaca pdf tugas 2 yang disitu ada contoh layanan platform sewa barang. Disisi lain, saya menyukai hiking CUMAN TERHALANG IZIN ORANG TUA. Jadi setelah baca contoh layanan di pdf saya langsung kepikiran membuat website rental outdoor. Lalu saya membuat judulnya Odet Mountain Adventure itu karna ingat nama streak pet saya odet jadi sepertinya lucu juga namanya. Webiste Odet Adventur ini terdiri dari 3 halaman utama yaitu home.php, form.php, dan landing.php dimana didalam halaman tersebut memanggil variabel yang saya buat di dataRental.php.Terdapat file css juga untuk home, form, dan landing serta file assets untuk gambar yang saya gunakan. Saya menggunakan perulangan foreach untuk memanggil array asosiatif , dan menerapkan if else untuk menambahkan diskon dan untuk menghitung total biaya rental. 
+Di dalam file home.php berisi navbar,identitas,dan heroes, serta button lalu terdapat dua file php di dalamnya yaitu about.php yang berisi tentang rental tersebut dan katalog.php yang berisi pricelist barang yang dirental , kedua file itu sebagai fitur dalam file home.php. Dalam home juga terdapat button untuk memuat form rental. Setelah masuk ke form rental disitu user memasukkan nama customer, email, tanggal pinjam, dan tanggal kembali, serta checkbox untuk produk yang di rental. Lalu user klik fiks untuk mencetak struk atau reset untuk memperbarui form. Ketika klik fiks maka halaman akan berpindah ke halaman landing.php disitu terdapat list dari barang yang di rental user beserta harganya, tentu dengan total harga. Setelah total harga muncul terdapat percabangan untuk diskon dalam beberapa syarat sehingga akan memengaruhi total harga yang di bayar. Setelah struk berhasil tercetak, dibawahnya terdapat button home untuk user kembali ke halaman home.
